@@ -90,8 +90,7 @@ function paidpage() {
     return null != e ? !0 : !1
 }
 function paidmember() {
-    var e = document.getElementById("paid_page");
-    return null != e ? !0 : !1
+    return !0 
 }
 function show_download() {
     var e = '<span onclick="popup(\'//data.tienganh123.com/file/dungchung/download_vip.htm\')"  onmouseout=hideticker(this) onMouseOver="showmessage_danhngon(\'Tải video, audio, hay lời dịch về máy - Chỉ dành cho thành viên VIP\',this)"><img src="//data.tienganh123.com/file/dungchung/download.jpg" border=0 /> </span>'
