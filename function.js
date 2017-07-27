@@ -133,13 +133,11 @@ function show_button_download() {
     }
 }
 function hideGiaiTrichVIP() {
-    for (var e = 1; ; ) {
+    var e = 1
         if (giaithich_vip = document.getElementById("giaithich_vip_" + e),
         null == giaithich_vip)
             return;
-        paidmember() || (giaithich_vip.innerHTML = "<a href='/huong-dan/214-quyen-loi-thanh-vien-vip-cua-tienganh123.html' target=_blank><img src='//data.tienganh123.com/file/dungchung/giaithich_vip.png' border=0 /> </a>"),
-        e += 1
-    }
+        
 }
 function showAds_Datthe() {
     if (dathe = document.getElementById("dat-the"),
